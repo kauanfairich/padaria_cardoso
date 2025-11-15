@@ -1,14 +1,14 @@
-# 🥖 Padaria Cardoso - Site Vitrine
+#  Padaria Cardoso - Site Vitrine
 
 Site vitrine profissional e responsivo para a Padaria Cardoso, desenvolvido com HTML5, CSS3 e JavaScript puro.
 
-## 📋 Conteúdo do Projeto
+##  Conteúdo do Projeto
 
 - `index.html` - Estrutura principal do site
 - `styles.css` - Estilos e design responsivo
 - `script.js` - Interatividade e animações
 
-## 🚀 Como Usar
+##  Como Usar
 
 ### 1. Configuração Básica
 
@@ -120,7 +120,7 @@ Exemplo de estrutura de produto:
 </div>
 ```
 
-## 🎨 Recursos do Site
+##  Recursos do Site
 
 ### Funcionalidades Implementadas
 
@@ -149,21 +149,21 @@ Exemplo de estrutura de produto:
 7. **Footer** - Rodapé com links e informações
 8. **Botões WhatsApp** - Flutuantes para fácil contato
 
-## 📱 Compatibilidade
+##  Compatibilidade
 
 - ✅ Chrome, Firefox, Safari, Edge (versões recentes)
 - ✅ Mobile (iOS e Android)
 - ✅ Tablets
 - ✅ Desktop (todas as resoluções)
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
 - **CSS3** - Design moderno com Flexbox e Grid
 - **JavaScript** - Interatividade e animações
 - **Google Fonts** - Tipografia (Poppins e Playfair Display)
 
-## 📦 Hospedagem
+##  Hospedagem
 
 Para colocar o site no ar, você pode usar:
 
@@ -188,7 +188,7 @@ Para colocar o site no ar, você pode usar:
 2. Use FTP para enviar os arquivos
 3. Configure o domínio
 
-## 🔧 Manutenção
+##  Manutenção
 
 ### Para adicionar novos produtos:
 1. Abra `index.html`
@@ -205,7 +205,7 @@ Para colocar o site no ar, você pode usar:
 2. Adicione estilos em `styles.css`
 3. Se necessário, adicione interatividade em `script.js`
 
-## 📞 Suporte
+##  Suporte
 
 Para dúvidas ou customizações adicionais, entre em contato:
 - WhatsApp: (número a ser definido)
@@ -213,14 +213,14 @@ Para dúvidas ou customizações adicionais, entre em contato:
 
 ## 📝 Observações Importantes
 
-⚠️ **IMPORTANTE:** Lembre-se de substituir:
+ **IMPORTANTE:** Lembre-se de substituir:
 - [ ] Números de WhatsApp (todas as 4 ocorrências)
 - [ ] Caminhos das imagens
 - [ ] Link do Google Maps
 - [ ] Informações de contato
 - [ ] Horário de funcionamento (se necessário)
 
-## 🎯 Próximos Passos Sugeridos
+##  Próximos Passos Sugeridos
 
 1. Substituir todos os números de WhatsApp
 2. Organizar e otimizar as imagens
@@ -231,12 +231,6 @@ Para dúvidas ou customizações adicionais, entre em contato:
 7. Fazer backup dos arquivos
 8. Escolher e configurar hospedagem
 
-## 📄 Licença
+##  Licença
 
 Este projeto foi desenvolvido especificamente para a Padaria Cardoso.
-
----
-
-**Desenvolvido com ❤️ para a Padaria Cardoso**
-
-*Última atualização: Novembro 2024*
