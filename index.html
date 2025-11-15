@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Padaria Cardoso - Produtos frescos e artesanais em São Francisco, Serra/ES">
+    <title>Padaria Cardoso | Produtos Artesanais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Padaria Cardoso</h1>
+                <p class="tagline">Tradição & Sabor desde 2020</p>
+            </div>
+            <nav class="nav">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Bem-vindo à Padaria Cardoso</h2>
+            <p class="hero-subtitle">Produtos frescos e artesanais feitos com carinho todos os dias</p>
+            <div class="hero-buttons">
+                <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                <a href="https://wa.me/5527997279938" target="_blank" class="btn btn-secondary">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                    Fazer Pedido
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre a Padaria Cardoso</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>A Padaria Cardoso está localizada no coração de São Francisco, Serra/ES, servindo nossa comunidade com produtos frescos e artesanais desde 2020.</p>
+                    <p>Somos um empreendimento familiar que atua com dedicação no ramo de panificação, confeitaria e comercialização de produtos alimentícios de qualidade.</p>
+                    <p>Nossa produção é realizada diariamente, garantindo o máximo de frescor e sabor em cada produto. Atendemos principalmente os moradores de São Francisco e bairros vizinhos com carinho e atendimento personalizado.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">🥖</span>
+                            <h3>Produtos Frescos</h3>
+                            <p>Produção diária</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">👨‍🍳</span>
+                            <h3>Artesanal</h3>
+                            <p>Feito com carinho</p>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">⭐</span>
+                            <h3>Qualidade</h3>
+                            <p>Ingredientes selecionados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-images">
+                    <div class="about-image-grid">
+                        <img src="imagens/interior1.jpg" alt="Interior da Padaria Cardoso" class="grid-image">
+                        <img src="imagens/interior2.jpg" alt="Produtos da Padaria" class="grid-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossos Produtos</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Confira nossa variedade de produtos frescos e saborosos</p>
+            </div>
+
+            <!-- Pães -->
+            <div class="product-category">
+                <h3 class="category-title">🥖 Pães</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/paes.jpg" alt="Pães da Padaria Cardoso" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão de Sal</h4>
+                            <p class="product-price">R$ 17,50/kg</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-doce.jpeg" alt="Pão Doce" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão Doce</h4>
+                            <p class="product-price">R$ 18,50/kg</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-cachorro-quente.png" alt="Pão para Cachorro-Quente" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão para Cachorro-Quente</h4>
+                            <p class="product-price">R$ 19,90/kg</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/mini-pao.jpg" alt="Mini Pão para Cachorro-Quente" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Mini Pão para Cachorro-Quente</h4>
+                            <p class="product-price">R$ 16,90/kg</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-queijo.jpg" alt="Pão de Queijo" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão de Queijo (bolinha)</h4>
+                            <p class="product-price">R$ 1,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-de-queijo-provolone.jpg" alt="Pão de Queijo Provolone" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão de Queijo Provolone</h4>
+                            <p class="product-price">R$ 4,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-especial.jpeg" alt="Pão Especial" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão Especial</h4>
+                            <p class="product-price">R$ 2,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-mel-comum.jpg" alt="Pão de Mel Comum" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão de Mel Comum</h4>
+                            <p class="product-price">R$ 1,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pao-mel-nutella.jpeg" alt="Pão de Mel com Nutella" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pão de Mel com Nutella</h4>
+                            <p class="product-price">R$ 3,00/un</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Salgados -->
+            <div class="product-category">
+                <h3 class="category-title">🥐 Salgados</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/salgados1.jpg" alt="Salgados Assados" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Salgados Assados</h4>
+                            <p class="product-description">Hambugão, Hot Dog, Esfirra, Joelho</p>
+                            <p class="product-price">R$ 8,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/salgados2.jpg" alt="Mini Pizza" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Mini Pizza</h4>
+                            <p class="product-description">Calabresa, Frango, Mussarela, Presunto e Queijo</p>
+                            <p class="product-price">R$ 3,40/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/empada.jpeg" alt="Empadas" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Empadas</h4>
+                            <p class="product-price">R$ 7,00/un</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doces e Sobremesas -->
+            <div class="product-category">
+                <h3 class="category-title">🍰 Doces e Sobremesas</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/pudim.jpg" alt="Pudim" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Pudim</h4>
+                            <p class="product-price">R$ 64,90/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/bolos1.jpg" alt="Bolo de Chocolate" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Bolo de Chocolate</h4>
+                            <p class="product-description">Bolos especiais</p>
+                            <p class="product-price">R$ 139,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/bolos2.jpg" alt="Bolo de Nozes" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Real de Nozes</h4>
+                            <p class="product-description">Bolo especial</p>
+                            <p class="product-price">R$ 139,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/bolos3.jpg" alt="Rocambole" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Rocambole Especial</h4>
+                            <p class="product-price">R$ 139,00/un</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/bolos4.jpg" alt="Bolo de Ninho" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Ninho com Nutella</h4>
+                            <p class="product-description">Bolo especial</p>
+                            <p class="product-price">R$ 139,00/un</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tortas e Assados Grandes -->
+            <div class="product-category">
+                <h3 class="category-title">🥧 Tortas e Assados</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/tortas1.jpg" alt="Torta de Frango" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Torta de Frango</h4>
+                            <p class="product-price">R$ 109,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/tortas2.jpg" alt="Empadão de Frango" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Empadão de Frango</h4>
+                            <p class="product-price">R$ 112,00</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="imagens/broas.jpg" alt="Broas" class="product-image">
+                        </div>
+                        <div class="product-info">
+                            <h4>Broas</h4>
+                            <p class="product-description">Fubá, Milho ou Chocolate</p>
+                            <p class="product-price">R$ 5,00/un</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h3>Gostou dos nossos produtos?</h3>
+                <p>Entre em contato e faça seu pedido!</p>
+                <a href="https://wa.me/5527997279938" target="_blank" class="btn btn-primary btn-large">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                    Fazer Pedido pelo WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe Section -->
+    <section id="equipe" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossa Equipe</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Conheça as pessoas que fazem a magia acontecer todos os dias</p>
+            </div>
+            <div class="team-content">
+                <img src="imagens/equipe.jpg" alt="Equipe Padaria Cardoso" class="team-image">
+                <p class="team-text">Nossa equipe é formada por profissionais dedicados e apaixonados pelo que fazem. Trabalhamos todos os dias com carinho e atenção aos detalhes para entregar os melhores produtos para você e sua família.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Onde Estamos</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <a href="https://maps.app.goo.gl/rsC67R3oweS8qhxy9" target="_blank" class="contact-item contact-item-link">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Rua Espírito Santo<br>Bairro São Francisco<br>Serra/ES - CEP 29175-204</p>
+                        </div>
+                    </a>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(27) 99727-9938</p>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/padaria.cardosoo/" target="_blank" class="contact-item contact-item-link">
+                        <div class="contact-icon">📷</div>
+                        <div>
+                            <h4>Instagram</h4>
+                            <p>@padaria.cardosoo</p>
+                        </div>
+                    </a>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sábado: 6h às 20h<br>Domingo: 6h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.3956047385684!2d-40.17992371498398!3d-20.114943686459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb7f75a9c8877a3%3A0x74344850af03a4fa!2sPadaria%20e%20mercearia%20Cardoso!5e0!3m2!1spt-BR!2sbr!4v1699999999999!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Padaria Cardoso</h3>
+                    <p>Produtos frescos e artesanais desde 2020</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#produtos">Produtos</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p>São Francisco, Serra/ES</p>
+                    <p>@padaria.cardosoo</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Padaria Cardoso. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5527997279938?text=Olá! Gostaria de fazer um pedido." target="_blank" class="whatsapp-btn whatsapp-btn-1" title="WhatsApp">
+        <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <span>WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
